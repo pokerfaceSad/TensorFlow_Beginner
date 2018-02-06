@@ -22,3 +22,8 @@ print(type(fab)) # <class 'function'>
 print(isgeneratorfunction(fab)) # True
 print(isinstance(fab,types.GeneratorType)) # False
 print(isinstance(fab(5),types.GeneratorType)) # True
+
+f1 = fab(3)
+print(next(f1))  # 1
+print(next(f1))  # 1
+print(next(f1))  # 2
