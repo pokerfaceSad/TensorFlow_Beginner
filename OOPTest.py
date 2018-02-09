@@ -18,7 +18,7 @@ class Bird:
         self.__flyHigher()
     def __flyHigher(self):
         print("fly Higher")
-    
+
 bird1 = Bird(color=None,height="175cm")
 bird1.fly()
 print(bird1.height)
